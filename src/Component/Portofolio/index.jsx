@@ -78,7 +78,7 @@ const Portofolio = () => {
             />
             <Card 
               image={p8}
-              title="Assignment cheating"
+              title="Assignment Cheating"
               description="Assignment cheating is the act of having someone else do your school or university work for you, which is considered dishonest and violates academic integrity."
               buttonLabel="Get Assignment Help"
             />
