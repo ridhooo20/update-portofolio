@@ -28,7 +28,7 @@ const Card = ({ image, title, description, content, buttonLabel }) => {
   return (
     <div
       ref={div1Ref}
-      className="fade-down max-w-sm h-[24rem] lg:mt-4 mt-8 mx-auto rounded-lg shadow-lg shadow-sky-300 bg-gray-100 flex flex-col justify-between"
+      className="fade-down max-w-sm h-[25rem] lg:mt-4 mt-8 mx-auto rounded-lg shadow-lg shadow-sky-300 bg-gray-100 flex flex-col justify-between"
     >
       {/* Gambar */}
       {image && (
