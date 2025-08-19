@@ -41,16 +41,7 @@ const Card = ({ image, title, description, content, buttonLabel }) => {
         <p className="text-sm text-gray-500">{description}</p>
         <p className="text-black mt-2">{content}</p>
       </div>
-
-      {/* Footer */}
-      <div className="p-4 text-right">
-        <a
-          href="https://wa.me/+6282282816854"
-          className="bg-cyan-500 text-white  px-4 py-2 rounded hover:bg-cyan-600"
-        >
-          {buttonLabel}
-        </a>
-      </div>
+      
     </div>
   );
 };

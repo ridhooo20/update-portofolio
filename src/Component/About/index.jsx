@@ -57,10 +57,11 @@ const About = () => {
             ref={sRef}
             className="fade-down text-center lg:mx-72 mx-4 mt-8 text-md font-semibold text-white"
           >
-            Hi, I'm <span className="text-cyan-400">Ridho Mulya</span>—a Web
-            Pentester and Front-End Developer interested in securing and
-            building better web experiences. Let's <span className="text-cyan-400">explore</span> my journey in the
-            world of web development and security!
+            Halo, saya Ridho Mulya — seorang Software Engineer dan Networking
+            Engineer yang berfokus pada pembuatan aplikasi andal serta
+            perancangan sistem jaringan yang terpercaya. Mari kita jelajahi
+            perjalanan saya di dunia rekayasa perangkat lunak dan jaringan
+            komputer!
           </h1>
           <div className=" flex flex-col mt-4 mx-auto">
             <h1

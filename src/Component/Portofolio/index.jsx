@@ -50,37 +50,31 @@ const Portofolio = () => {
               image={p}
               title="Web Community"
               description="web community is an online platform for a community."
-              buttonLabel="Create Your Version"
             />
             <Card
               image={p2}
               title="Web Personal"
               description="a portfolio website is an online platform for showcasing one's work, skills, and experience."
-              buttonLabel="Create Your Version"
             />
             <Card
               image={p4}
               title="Web E-Commerce"
               description="a web e-commerce site is an online platform for buying and selling products or services."
-              buttonLabel="Create Your Version"
             />
             <Card
               image={p6}
               title="Freelance Web Development"
               description="Work on websites for academic assignments and personal projects with features as requested."
-              buttonLabel="Create Your Version"
             />
             <Card 
               image={p7}
               title="Mobile App"
               description="A simple and user-friendly mobile app designed to help you get things done faster and easier. Explore, connect, and enjoy a smooth experience in just a few taps."
-              buttonLabel="Create Your Version"
             />
             <Card 
               image={p8}
               title="Assignment Cheating"
               description="Assignment cheating is the act of having someone else do your school or university work for you, which is considered dishonest and violates academic integrity."
-              buttonLabel="Get Assignment Help"
             />
           </div>
         </div>
