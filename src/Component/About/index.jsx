@@ -39,7 +39,7 @@ const About = () => {
 
   return (
     <Element name="about">
-      <section className="pt-12 lg:h-[68rem] h-[120rem] w-full background-about">
+      <section className="pt-12 lg:h-[100rem] h-[200rem] w-full background-about">
         <div className="text-center fade-down" ref={textRef}>
           <p className="text-6xl font-bold opacity-30 -z-10">"whoami"</p>
           <p className="text-4xl font-bold z-10 mt-[-2.5rem]">"whoami"</p>
@@ -57,11 +57,13 @@ const About = () => {
             ref={sRef}
             className="fade-down text-center lg:mx-72 mx-4 mt-8 text-md font-semibold text-white"
           >
-            Halo, saya Ridho Mulya — seorang Software Engineer dan Networking
-            Engineer yang berfokus pada pembuatan aplikasi andal serta
-            perancangan sistem jaringan yang terpercaya. Mari kita jelajahi
-            perjalanan saya di dunia rekayasa perangkat lunak dan jaringan
-            komputer!
+            Hi, I'm Ridho Mulya — a Network & Cybersecurity Engineer and
+            Software Engineer. I focus on designing and managing secure and
+            reliable networks, conducting pentesting, and developing supporting
+            applications to improve infrastructure performance and security.
+            With this combination of expertise, I build efficient, resilient
+            technology solutions that are ready to face the challenges of the
+            digital world.
           </h1>
           <div className=" flex flex-col mt-4 mx-auto">
             <h1

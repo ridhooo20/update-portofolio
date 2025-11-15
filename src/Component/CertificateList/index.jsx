@@ -3,6 +3,10 @@ import CertificateCard from "../CertificateCard";
 import image1 from "../Certificate/SIBERMUDA.png";
 import image2 from "../Certificate/MERN.png";
 import image3 from "../Certificate/CYBERACADEMY.png";
+import image4 from "../Certificate/udemy.png";
+import image5 from "../Certificate/next.png";
+import image6 from "../Certificate/intro.png";
+import image7 from "../Certificate/laravel.png";
 
 const certificates = [
   {
@@ -19,6 +23,21 @@ const certificates = [
     title: "Web Penetration Testing Course",
     provider: "CYBER ACADEMY",
     image: image3,
+  },
+  {
+    title: "Fullstack Next.js",
+    provider: "WPU COURSE",
+    image: image5,
+  },
+  {
+    title: "Introduction to Information Security",
+    provider: "CYBER ACADEMY",
+    image: image6,
+  },
+  {
+    title: "Belajar Laravel",
+    provider: "WPU COURSE",
+    image: image7,
   }
 ];
 
