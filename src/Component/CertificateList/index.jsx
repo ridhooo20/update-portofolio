@@ -7,6 +7,7 @@ import image4 from "../Certificate/udemy.png";
 import image5 from "../Certificate/next.png";
 import image6 from "../Certificate/intro.png";
 import image7 from "../Certificate/laravel.png";
+import image8 from "../Certificate/hacking.png";
 
 const certificates = [
   {
@@ -38,6 +39,11 @@ const certificates = [
     title: "Belajar Laravel",
     provider: "WPU COURSE",
     image: image7,
+  },
+  {
+    title: "Make In-house Hacking and Pentesting Lab",
+    provider: "EC-COUNCIL",
+    image: image8,
   }
 ];
 
