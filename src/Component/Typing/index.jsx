@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const TypingAnimation = () => {
-  const texts = ["Software Engineer", "Network Engineer", "Cyber Security"];
+  const texts = ["Software Engineer", "Network Engineer", "Cyber Security", "Penetration Tester", "Ethical Hacker"];
   const [text, setText] = useState("");
   const [index, setIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);

@@ -8,6 +8,7 @@ import image5 from "../Certificate/next.png";
 import image6 from "../Certificate/intro.png";
 import image7 from "../Certificate/laravel.png";
 import image8 from "../Certificate/hacking.png";
+import image9 from "../Certificate/Crypto.png";
 
 const certificates = [
   {
@@ -44,6 +45,11 @@ const certificates = [
     title: "Make In-house Hacking and Pentesting Lab",
     provider: "EC-COUNCIL",
     image: image8,
+  },
+  {
+    title: "Classical Cryptography for Beginner Course",
+    provider: "Cyber Academy",
+    image: image9,
   }
 ];
 
