@@ -9,6 +9,7 @@ import image6 from "../Certificate/intro.png";
 import image7 from "../Certificate/laravel.png";
 import image8 from "../Certificate/hacking.png";
 import image9 from "../Certificate/Crypto.png";
+import image10 from "../Certificate/Apresiasi.jpg";
 
 const certificates = [
   {
@@ -50,7 +51,12 @@ const certificates = [
     title: "Classical Cryptography for Beginner Course",
     provider: "Cyber Academy",
     image: image9,
-  }
+  },
+  {
+    title: "Sertifikat Apresiasi Bug Bounty",
+    provider: "DISKOMINFO KAB TEMANGGUNG",
+    image: image10,
+  },
 ];
 
 const CertificateList = () => {

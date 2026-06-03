@@ -21,7 +21,7 @@ const About = () => {
           }
         });
       },
-      { threshold: 0.3 }
+      { threshold: 0.3 },
     );
 
     if (textRef.current) observer.observe(textRef.current);
@@ -39,7 +39,7 @@ const About = () => {
 
   return (
     <Element name="about">
-      <section className="pt-12 lg:h-[120rem] h-[200rem] w-full background-about">
+      <section className="pt-12 lg:h-[120rem] h-[240rem] w-full background-about">
         <div className="text-center fade-down" ref={textRef}>
           <p className="text-6xl font-bold opacity-30 -z-10">"whoami"</p>
           <p className="text-4xl font-bold z-10 mt-[-2.5rem]">"whoami"</p>

@@ -1,7 +1,13 @@
 import { useState, useEffect } from "react";
 
 const TypingAnimation = () => {
-  const texts = ["Software Engineer", "Network Engineer", "Cyber Security", "Penetration Tester", "Ethical Hacker"];
+  const texts = [
+    "Software Engineer",
+    "Network Engineer",
+    "Cyber Security",
+    "Bug Hunter",
+    "Ethical Hacker",
+  ];
   const [text, setText] = useState("");
   const [index, setIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
@@ -9,22 +15,25 @@ const TypingAnimation = () => {
 
   useEffect(() => {
     const currentText = texts[index];
-    const timeout = setTimeout(() => {
-      if (isDeleting) {
-        setText(currentText.substring(0, charIndex - 1));
-        setCharIndex((prev) => prev - 1);
-      } else {
-        setText(currentText.substring(0, charIndex + 1));
-        setCharIndex((prev) => prev + 1);
-      }
+    const timeout = setTimeout(
+      () => {
+        if (isDeleting) {
+          setText(currentText.substring(0, charIndex - 1));
+          setCharIndex((prev) => prev - 1);
+        } else {
+          setText(currentText.substring(0, charIndex + 1));
+          setCharIndex((prev) => prev + 1);
+        }
 
-      if (!isDeleting && charIndex === currentText.length) {
-        setTimeout(() => setIsDeleting(true), 1000); // Tunggu sebelum menghapus
-      } else if (isDeleting && charIndex === 0) {
-        setIsDeleting(false);
-        setIndex((prev) => (prev + 1) % texts.length); // Ganti ke teks berikutnya
-      }
-    }, isDeleting ? 50 : 100);
+        if (!isDeleting && charIndex === currentText.length) {
+          setTimeout(() => setIsDeleting(true), 1000); // Tunggu sebelum menghapus
+        } else if (isDeleting && charIndex === 0) {
+          setIsDeleting(false);
+          setIndex((prev) => (prev + 1) % texts.length); // Ganti ke teks berikutnya
+        }
+      },
+      isDeleting ? 50 : 100,
+    );
 
     return () => clearTimeout(timeout);
   }, [charIndex, isDeleting, index, texts]);

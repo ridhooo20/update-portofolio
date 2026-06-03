@@ -1,13 +1,13 @@
 import React, { useEffect, useRef } from "react";
 import { Element } from "react-scroll";
-import "./portofolio.css"
+import "./portofolio.css";
 import Card from "../Card"; // Pastikan path sesuai
 import p from "../img/p.png";
 import p2 from "../img/p2.png";
 import p4 from "../img/p4.png";
 import p6 from "../img/p6.png";
-import p7 from "../img/p7.png"
-import p8 from "../img/p8.png"
+import p7 from "../img/p7.png";
+import p8 from "../img/p8.png";
 
 const Portofolio = () => {
   const judulRef = useRef(null);
@@ -23,7 +23,7 @@ const Portofolio = () => {
           }
         });
       },
-      { threshold: 0.3 }
+      { threshold: 0.3 },
     );
 
     if (judulRef.current) observer.observe(judulRef.current);
@@ -66,12 +66,12 @@ const Portofolio = () => {
               title="Freelance Web Development"
               description="Work on websites for academic assignments and personal projects with features as requested."
             />
-            <Card 
+            <Card
               image={p7}
               title="Mobile App"
               description="A simple and user-friendly mobile app designed to help you get things done faster and easier. Explore, connect, and enjoy a smooth experience in just a few taps."
             />
-            <Card 
+            <Card
               image={p8}
               title="Assignment Cheating"
               description="Assignment cheating is the act of having someone else do your school or university work for you, which is considered dishonest and violates academic integrity."
